@@ -1,0 +1,7 @@
+[package]
+name = "lll_recette"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+lll_ingredient = { path = "../lll_ingredient" }

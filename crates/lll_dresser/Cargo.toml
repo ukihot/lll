@@ -1,0 +1,8 @@
+[package]
+name = "lll_dresser"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+crossterm = "0.28.1"
+lll_recette = { path = "../lll_recette" }

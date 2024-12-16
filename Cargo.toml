@@ -1,0 +1,19 @@
+[package]
+name = "lll"
+version = "0.1.0"
+edition = "2021"
+categories = ["game-engines", "cui", "tui"]
+description = "A minimal CUI game engine for terminal-based gameplay"
+exclude = ["assets/", "tools/", ".github/", "crates/"]
+homepage = "https://grill-ware.co,"
+keywords = ["game", "engine", "gamedev", "lll"]
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/Grillware/lll"
+rust-version = "1.82.0"
+
+[dependencies]
+lll_cuisine = { path = "./crates/lll_cuisine" }
+
+[workspace]
+resolver = "2"
+members = [ "examples/*","crates/*"]

@@ -1,0 +1,10 @@
+[package]
+name = "lll_cuisine"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+lll_dresser = { path = "../lll_dresser" }
+lll_frigo = { path = "../lll_frigo" }
+lll_ingredient = { path = "../lll_ingredient" }
+lll_recette = { path = "../lll_recette" }
